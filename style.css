@@ -18,17 +18,22 @@ body {
 
 
 
-#one {
+#left-sidebar-cont1 {
     padding: 20px;
 }
 
-#two {
+#left-sidebar-cont2 {
     padding: 20px;
 }
 
-#three {
+#left-sidebar-cont3 {
     padding:20px;
 }
+
+#left-sidebar-cont4 {
+    padding: 20px;
+}
+
 
 .homepage {
     height: 100%;
@@ -48,33 +53,93 @@ body {
     top: 20px;
 }
 
-#likedsongs {
-    background-color: black;
-    width: 200px;
 
-}
-.block {
-    height: 60px;
-    width: 90%;
-    border: 2px black solid;
+.section1 {
+    height: 230px;
 }
 
-.block b {
+/* Block 1 sytling starts here */
+#block_cont1  {
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    background-color: #303030;
+    margin: 5px;
+}
 
+#block_text1 {
+    display: inline;
     position: relative;
-    bottom: 25px;
-    left: 15px;
-    
+    bottom: 40px;
+    padding: 10px;
 }
 
-.block #two {
-    background-color: green;
+#block_cont2  {
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    background-color: #303030;
+    margin: 5px;
 }
 
-#five {
-    display: block;
+#block_text2 {
+    display: inline;
+    position: relative;
+    bottom: 40px;
 }
 
+#block_cont3  {
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    background-color: #303030;
+    margin: 5px;
+}
+
+#block_text3 {
+    display: inline;
+    position: relative;
+    bottom: 40px;
+}
+
+#block_cont4  {
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    background-color: #303030;
+    margin: 5px;
+}
+
+#block_text4 {
+    display: inline;
+    position: relative;
+    bottom: 40px;
+}
+
+#block_cont5  {
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    background-color: #303030;
+    margin: 5px;
+}
+
+#block_text5 {
+    display: inline;
+    position: relative;
+    bottom: 40px;
+}
+
+img[id^="block_image"] {
+    height: 80px;
+}
+
+article[id^="block_cont"] {
+    background-color: #303030;
+    height: 80px;
+    width: 90px;
+    display: inline-block;
+}
 
 footer {
     background-color: black;
@@ -131,12 +196,143 @@ footer img.eleven {
 
 
 }
+.section2 {
+    padding: 10px;
+}
 
-#text {
-    background-color: #1ed760;
-    height: 20px;
-    border-bottom: #1ed760;
-    position: fixed;
-    top: 10px;
+
+
+article[id^=block2_cont] {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #303030;
+
+}
+
+section[id^=left-sidebar-cont] {
+    height: 160px;
+}
+
+#logo {
+    height: 50px;
+    width: 160px;
+    display: block;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    
+}
+
+#left-sidebar-icon1 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    left: 90px;
+}
+
+#left-sidebar-text1 {
     display: inline;
-  }
+    position: fixed;
+    left: 120px;
+    top: 90px;
+}
+
+#left-sidebar-icon2 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    
+
+}
+
+#left-sidebar-text2 {
+    display: inline;
+    position: fixed;
+    left: 120px;
+    top: 140px;
+}
+
+
+#left-sidebar-icon3 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    left: 50px;
+}
+
+#left-sidebar-text3 {
+    display: inline;
+    position: fixed;
+    left: 120px;
+    top: 180px;
+}
+
+#left-sidebar-icon4 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    left: 50px;
+}
+
+#left-sidebar-text4 {
+    display: inline;
+    position: fixed;
+    left: 120px;
+    top: 230px;
+}
+
+#left-sidebar-icon5 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    left: 50px;
+}
+
+#left-sidebar-text5 {
+    display: inline;
+    position: fixed;
+    left: 120px;
+    top: 270px;
+}
+
+#left-sidebar-icon6 {
+    height: 30px;
+    width: 30px;
+    display: block;
+    padding: 5px;
+    left: 50px;
+}
+
+#left-sidebar-text6 {
+    display: inline;
+    position: fixed;
+    left: 120px;
+    top: 315px;
+}
+
+#left-sidebar-icon7 {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+
+
+}
+
+#left-sidebar-cont4 {
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+}
+
+#left-sidebar-text13 {
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
