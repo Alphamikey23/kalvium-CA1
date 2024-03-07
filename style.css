@@ -316,12 +316,17 @@ section[id^=left-sidebar-cont] {
     top: 315px;
 }
 
+article[id="left-sidebar-cont3"] {
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+}
+
 #left-sidebar-icon7 {
-    height: 40px;
-    width: 40px;
-    position: fixed;
-
-
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
 }
 
 #left-sidebar-cont4 {
@@ -333,8 +338,9 @@ section[id^=left-sidebar-cont] {
 #left-sidebar-text13 {
     display: inline;
     position: relative;
-    top: 10px;
-    left: 60px;
+    top: 0px;
+    left: 10px;
+
 }
 
 
